@@ -11,11 +11,17 @@ namespace DataStructureProblem
     {
         public static void Main(string[] args) 
         { 
-            LinkedList<int> list = new LinkedList<int>();
+           /* LinkedList<int> list = new LinkedList<int>();
             list.Add(1);
             list.Add(2);
             list.Add(3);
-            list.Display();
+            list.Display();*/
+
+            Stack<int> stack = new Stack<int>();
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+            stack.Display();
         }
     }
 }
