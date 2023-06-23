@@ -17,11 +17,16 @@ namespace DataStructureProblem
             list.Add(3);
             list.Display();*/
 
-            Stack<int> stack = new Stack<int>();
+           /* Stack<int> stack = new Stack<int>();
             stack.Push(1);
             stack.Push(2);
             stack.Push(3);
-            stack.Display();
+            stack.Display();*/
+           Queue<string> queue = new Queue<string>();
+           queue.Enqueue("A");
+            queue.Enqueue("B");
+            queue.Enqueue("C");
+            queue.Display();
         }
     }
 }
